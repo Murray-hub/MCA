@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title> MCA</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Login</h1>
+        <div class="login_container">
+            <img alt="school logo">
+           <h1>MCA</h1>
+            <p>School Management System</p>
+            <form>
+                <label for="username">
+                    <input type="text" id="username" placeholder="Username" required/>
+                </label>
+                <label for="password">
+                    <input type="password" id="password" placeholder="Password" required/>
+                </label>
+                <button type="submit">Login</button>
+            </form>
+            <a href="#">Forget password</a>
+        <a href="#">Admin Login</a>
+        </div>
     </body>
 </html>
