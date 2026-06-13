@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title> MCA</title>
         <link rel="stylesheet" href="style.css">
+        <script src="login.js" defer></script>
     </head>
     <body>
         <div class="login_container">
@@ -14,10 +15,13 @@
                 <label for="username">
                     <input type="text" id="username" placeholder="Username" required/>
                 </label>
+                <div class="toggle_container">
                 <label for="password">
                     <input type="password" id="password" placeholder="Password" required/>
                 </label>
-                <button type="submit">Login</button>
+                <span id="toggle_btn">show</span>
+                </div>
+                <button id="loginBtn" type="submit">Login</button>
             </form>
             <a href="#">Forget password</a>
         <a href="#">Admin Login</a>
